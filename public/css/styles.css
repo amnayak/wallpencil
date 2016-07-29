@@ -1,23 +1,9 @@
-/*-------------------------
-	Simple reset
---------------------------*/
-
-
 *{
 	margin:0;
 	padding:0;
 }
-
-
-/*-------------------------
-	General Styles
---------------------------*/
-
-
 html{
 	background:url('../img/bg.png') repeat #e4e4e4;
-		
-	/* This will hide the extra canvas if the screen is small */
 	overflow:hidden;
 }
 
@@ -38,11 +24,6 @@ a:hover{
 section, footer, header{
 	display: block;
 }
-
-
-/*-------------------------
-	Main Area
---------------------------*/
 
 hgroup{
 	position: fixed;
@@ -87,13 +68,6 @@ h3{
 	height:22px;
 	background:url('../img/pointer.png') no-repeat -4px 0;
 }
-
-
-
-/*----------------------------
-	The Footer
------------------------------*/
-
 
 footer{
 	background-color: #111111;
