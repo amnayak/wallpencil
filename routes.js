@@ -6,7 +6,7 @@ module.exports = function(app,io){
 
 	app.get('/create', function(req,res){
 		var id = Math.round((Math.random() * 1000000));
-		res.redirect('/canvas/'+id);
+		res.redirect('canvas/'+id);
 	});
 
 	app.get('/canvas/:id', function(req,res){

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Private Canvas</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="../dist/img/favicon.ico">
+
+</head>
+
+<body>
+
+    <div id="cursors">
+        <!-- Create mouse pointers -->
+    </div>
+
+    <canvas id="paper" width="1900" height="1000">
+        Your browser does not support canvas :(
+    </canvas>
+
+    <hgroup id="instructions">
+        <h1>Draw together!</h1>
+        <h3>To clear the page, just reload</h3>
+    </hgroup>
+
+    <footer>
+        <h2><i>Share:</i> <input type="text" onClick="this.select();" id="link" readonly></h2>
+        <a class="git" href="http://github.com/"> See this project on GitHub</a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

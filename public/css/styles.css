@@ -29,7 +29,7 @@ hgroup{
 	position: fixed;
 	background-color: rgba(255, 255, 255, 0.7);
 	width: 400px;
-	height: 78px;
+	height:50px;
 	top: 50%;
 	left: 50%;
 	margin: -120px 0 0 -225px;
@@ -70,7 +70,7 @@ h3{
 }
 
 footer{
-	background-color: #111111;
+	background-color: #F1C40F;
 	bottom: 0;
 	box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
 	height: 45px;
@@ -81,7 +81,7 @@ footer{
 }
 
 footer h2{
-	color: #EEEEEE;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: normal;
 	left: 50%;
@@ -93,11 +93,11 @@ footer h2{
 
 footer h2 i{
 	font-style:normal;
-	color:#888;
+	color:#ffffff;
 }
 
 footer a.git,a.git:visited{
-	color: #999999;
+	color: #ffffff;
 	font-size: 12px;
 	left: 50%;
 	margin: 16px 0 0 110px;
